@@ -5,12 +5,9 @@ export interface ICategory {
 }
 
 export interface ICreateCategoryDTO{
-      name: string;
+    name: string;
     description?: string;
     active?:boolean
-    createAt: string,
-    updayteAlt:string
-    
 }
 
 export interface IUpdateCategoryDTO{
